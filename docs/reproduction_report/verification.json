@@ -1,0 +1,16 @@
+{
+  "publication_report": "reports/FMWF_Reproduction_Report.pdf",
+  "pdf_sha256": "9fbcfacdae4006d2a3df048b9f98aa7ace317e9acf1fad26adaf3ef1b97339e2",
+  "pages": 12,
+  "all_pages_rendered": true,
+  "visual_inspection": "PASS: all 12 publication-report pages reviewed; no clipping or overlaps",
+  "private_paths_in_report_or_figure_metadata": false,
+  "original_project_preserved": true,
+  "original_files_checked": 52,
+  "png_pixels_preserved": true,
+  "vector_pdf_render_pixels_preserved": true,
+  "numerical_csv_fields_preserved": true,
+  "training_or_evaluation_run": false,
+  "report_generation_only": true,
+  "note": "Historical experiment evidence remains in evidence.json; publication source hashes are in docs/PUBLICATION_MANIFEST.json."
+}

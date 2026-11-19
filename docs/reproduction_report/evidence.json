@@ -1,0 +1,559 @@
+{
+  "commit": "c970e0a38710f4bf260b5f63617cb59351af49cb",
+  "python_snapshot": "3.12.16",
+  "dependencies_snapshot": {
+    "torch": "2.3.0",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.5.1",
+    "matplotlib": "3.9.2",
+    "psutil": "7.2.2",
+    "pillow": "13.0.0"
+  },
+  "datasets": {
+    "synthesis-5tabdataset.csv": {
+      "rows": 10000,
+      "column_counts": [
+        15100
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        100
+      ],
+      "metadata106_values": []
+    },
+    "tor-5tab-finetuning100way25shot.csv": {
+      "rows": 2500,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        25
+      ],
+      "metadata106_values": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0,
+        21.0,
+        22.0,
+        23.0,
+        24.0
+      ]
+    },
+    "tor-5tab-finetuning100way40shot.csv": {
+      "rows": 4000,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        40
+      ],
+      "metadata106_values": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0,
+        21.0,
+        22.0,
+        23.0,
+        24.0,
+        25.0,
+        26.0,
+        27.0,
+        28.0,
+        29.0,
+        30.0,
+        31.0,
+        32.0,
+        33.0,
+        34.0,
+        35.0,
+        36.0,
+        37.0,
+        38.0,
+        39.0
+      ]
+    },
+    "tor5tab-dataset-val0.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        75.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val1.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        62.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val2.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        74.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val3.csv": {
+      "rows": 200,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        2
+      ],
+      "metadata106_values": [
+        72.0,
+        73.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val4.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        73.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val5.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        71.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val6.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        70.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val7.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        69.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val8.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        68.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val9.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        67.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val10.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        66.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val11.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        65.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    },
+    "tor5tab-dataset-val12.csv": {
+      "rows": 100,
+      "column_counts": [
+        15106
+      ],
+      "positive_labels_per_row": [
+        5.0
+      ],
+      "invalid_binary_label_rows": 0,
+      "traffic_values": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "unique_label_combinations": 100,
+      "samples_per_label_combination": [
+        1
+      ],
+      "metadata106_values": [
+        63.0
+      ],
+      "exact_input_overlap_with_training": {
+        "25": 0,
+        "40": 0
+      }
+    }
+  },
+  "validation_cross_file_overlap": [
+    {
+      "files": [
+        3,
+        4
+      ],
+      "exact_float32_input_matches": 100,
+      "full_numeric_row_matches": 100
+    }
+  ],
+  "parameter_count": 8829156,
+  "model_class_ast_matches_commit": {
+    "PretrainingModel.py": true,
+    "tor-5tab-Accuracy.py": true,
+    "tor-5tab-25shot-Accuracy.py": true
+  },
+  "strict_checkpoint_checks": {
+    "FMWF_Pretrainmodel_weights200epoch.pth": {
+      "missing": [],
+      "unexpected": []
+    },
+    "FMWF_5tab_100way25shot_finetuned300epoch_weights.pth": {
+      "missing": [],
+      "unexpected": []
+    },
+    "FMWF_5tab_100way40shot_finetuned300epoch_weights.pth": {
+      "missing": [],
+      "unexpected": []
+    }
+  },
+  "source_sha256": {
+    "external-paper/beyond-single-tabs.pdf": "80d238728f5a3d705e2016383bea6fa6ae18950b366a363ba026312d8b979d24",
+    "private-working-tree/README.md": "0c47f811752245e89ed22c38596e6118a458beb77fef52bfee4c68a96b8fdce9",
+    "private-working-tree/FMWF-src/smoke_test_finetuning.py": "3226937ab739b860118d1a1561c30f721f3de7a17acea7065ad6e90f8bfd2bf7",
+    "private-working-tree/FMWF-src/PretrainingModel.py": "45402734f9b9852e3d0887830289c228613225a057497619e8674d17df79818f",
+    "private-working-tree/FMWF-src/tor-5tab-Accuracy.py": "6855ca5ebcd3bbf6412faaedd488500a10f4a87b09bf97e16905b4b8f55202bb",
+    "private-working-tree/FMWF-src/evaluate_5tab_validation_sets.py": "6e18644c261e5644a2ae85e6762c25e4e6461c4f1a83056f8446cb5749284f63",
+    "private-working-tree/FMWF-src/test_full_finetuning_memory.py": "b31376707bcc4fafb3849d42d0b580e1693514a8516fd1b7686e6fbb8f3da4d9",
+    "private-working-tree/FMWF-src/smoke_test_model.py": "5f79f74bc8df9cecbbca77dc942113db24e426962f9ba8f16e2eacc51b42e0e9",
+    "private-working-tree/FMWF-src/smoke_test_25shot_full_epoch.py": "a3ae78ce8a3eee20890eb7b043edbf09fabb974f1d3ae67c9b643904587e874b",
+    "private-working-tree/FMWF-src/test_full_dataset_memory.py": "3ad20bf2d40d2e2de836e1023f0882b2fbde6fe5eb0065dbabfb03d4fca8fabe",
+    "private-working-tree/FMWF-src/smoke_test_validation.py": "6bfb1783de5a8bdc70f2cc4025e8935c5e1e71ebbdb1eb3431c652acd6f5a170",
+    "private-working-tree/FMWF-src/tor-5tab-25shot-Accuracy.py": "fc095381e0b88389e148b39065719b479e0af060445ed366f126931bd929b4af",
+    "private-working-tree/FMWF-src/plot_final_reproduction_results.py": "1cda8f1fdce7d41d95e2d455c36eb9b1315ce3a863167c7ad08bfb168a347b21",
+    "private-working-tree/FMWF-src/openword.py": "3f46963cd0f07d1d8edd1b19a591034300d4eba81f8feba1fc21b3a6cd745977",
+    "private-working-tree/FMWF-src/smoke_test_pretraining.py": "8b4f37b8302469ab3b623c58249aba35b58922f139b507a39ada0f06c32bb359",
+    "private-working-tree/FMWF-src/3tab-capture.ipynb": "f03eaad89b39d66d8af4c031a7c15a2952a11e15189ec5deb484bd970523d170",
+    "private-working-tree/FMWF-src/4tab-dataprocess.ipynb": "cf168e2d2a7dfb59db4925a66325e615fd1b254a72f458eab40fa1037789db51",
+    "private-working-tree/FMWF-src/2tab-capture.ipynb": "be35ec591ce0190aa514b6322483d450697a4c88dd7960870dcc66889bcb8fda",
+    "private-working-tree/FMWF-src/5tab-dataprocess.ipynb": "0605ff666f6dd2c0c14442d6a9832677d8a2f8bb8e24194b9b29c31755ea55f3",
+    "private-working-tree/FMWF-src/3tab-dataprocess.ipynb": "ac3d4737813779addbe8b07e7e902139b99879820b2b706ec755cf7dcdcfc3ed",
+    "private-working-tree/FMWF-src/tgto_core_obfuscation.ipynb": "9cd8bd0966a605c3a7b04568899f1a39e65bf07d1546faedab4abe9cd5f2dc6d",
+    "private-working-tree/FMWF-src/5tab-capture.ipynb": "1345ab1a19e9479986d6ea45e862c3c7f98e248351ba0bbe0148663ca90eb99f",
+    "private-working-tree/FMWF-src/2tab-dataprocess.ipynb": "e88670fe792f9d909d9d7c8b0360d5557d12fa956bae2a38d1418ceb8d244961",
+    "private-working-tree/FMWF-src/4tab-capture.ipynb": "5ab242bc2a2797b8612b138b9f6e2576cc29c4ec420d2d87c0e69621f88edbbb",
+    "private-working-tree/FMWF-src/FMWF_5tab_100way25shot_finetuned300epoch_weights_evaluation_val0-val1-val2-val3-val4_20261119T023831076913Z.csv": "085bbd511162963bf132db71697c2b2b3c0895b4df8bc89456b2ab17880f25f1",
+    "private-working-tree/FMWF-src/FMWF_5tab_100way40shot_finetuned300epoch_weights_evaluation_val0-val1-val2-val3-val4_20261118T210236613182Z.csv": "b8fb4f99c6494e353fd525e1d8f0f638a97614fbb8537676362ad6058b90af94",
+    "private-working-tree/FMWF-src/100way-25shot-validation_accuracy-300epoch.csv": "42c096710822ba4b759f365195e6a4bf7fc8e578fd68318ccc57ec0bc97749de",
+    "private-working-tree/FMWF-src/100way-40shot-validation_accuracy-300epoch.csv": "fbe52ca3c5eb137b5a5fa426951fe3103f47217b4b5fd61e113589e96517ff1b",
+    "private-working-tree/FMWF-src/FMWF_5tab_100way25shot_finetuned300epoch_weights.pth": "f02269f982651049a58819db60ffd4dffea6a57f0c2f313321d87a25cbc84a2c",
+    "private-working-tree/FMWF-src/FMWF_Pretrainmodel_weights200epoch.pth": "512fdabb1f75e02e22cb4cc473cd735c2d7736653933e94b08a814745383e0f9",
+    "private-working-tree/FMWF-src/FMWF_Pretrainmodel200epoch.pth": "73e39e8bd0039111b6ce9b4fcb8cf687196358ba741f6820562343448e661e9f",
+    "private-working-tree/FMWF-src/FMWF_5tab_100way40shot_finetuned300epoch_weights.pth": "d4c1cd3706ce554c65cd98b7744d6bdd1a8b2481751d078d7d1892c1f78d35ad",
+    "private-working-tree/fmwf_pretraining.log": "b64904c3e89a3d2b54215acd17656cfaf53155c2f0ebff7ccc8cbdf0a6bf196a",
+    "private-working-tree/fmwf_5tab_finetuning.log": "2ce9619949fe9ccb7f696071fdc0630bd545a3960d5f8cf999e919b5b4279445",
+    "private-working-tree/fmwf_5tab_25shot_finetuning.log": "9cbdc7eabefce691c72924f66e0858c356b21291c2b6ad12f950fde1ed479d02",
+    "private-working-tree/FMWF-results/figure_3_final_a_at_5_by_validation_file.png": "17a5ddd5d4a091c167afcfae13dde7280061cf068e202ed430dbb2d6a204ea11",
+    "private-working-tree/FMWF-results/figure_3_final_a_at_5_by_validation_file_v2.png": "cee5403e5958ec5845fe32feb357e77300d11b2763dad36073a96c87087b92d1",
+    "private-working-tree/FMWF-results/figure_4_paper_reference_vs_reproduction_25shot.png": "9ddd9ec9532f0e719e7908605defbf090c0840a772ad966748fa1dd53ca8a7f3",
+    "private-working-tree/FMWF-results/figure_1_val0_a_at_5_by_epoch.png": "2a809fdbfd2bf1a1680a8fa7f9389a6327cb582e6d33bc7ea8b28515058343d9",
+    "private-working-tree/FMWF-results/figure_2_val0_exact_set_accuracy_by_epoch.png": "6b09cec5393193327f426279de5ea00cfb84badc78b33cf93465dd8fc7f21380",
+    "private-working-tree/FMWF-results/figure_3_final_a_at_5_by_validation_file.pdf": "fc9e080b2663f92eda6b2c99e83674017a6f934415ac379b8c00f2251aa03d1a",
+    "private-working-tree/FMWF-results/figure_3_final_a_at_5_by_validation_file_v2.pdf": "a3822a851fe93599f771cfaa43246258a9f2449ab7543624db8c703c23a6977d",
+    "private-working-tree/FMWF-results/figure_4_paper_reference_vs_reproduction_25shot.pdf": "bf662f4725c8151e393c581b5fee0fb4f6f6e6ff4a7158173be4e01590dadf8f",
+    "private-working-tree/FMWF-results/figure_1_val0_a_at_5_by_epoch.pdf": "47cd81a757c11fd61cea6352b8e2b0cd2dd55396ca7b5f761b2a3cde5599e843",
+    "private-working-tree/FMWF-results/figure_2_val0_exact_set_accuracy_by_epoch.pdf": "b4364e195ccc7d5080a9ec24cce93318374de6e9483a111947feac6298c31863"
+  },
+  "publication_note": "Historical audit hashes refer to original private working-tree inputs; omitted files are not distributed. Public copies have separate publication-manifest hashes."
+}

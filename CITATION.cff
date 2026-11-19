@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite this reproduction and the original FMWF paper when using these artifacts. Contributor identities and a repository URL should be supplied by the repository owner before a release."
+title: "FMWF-Reproduction: Tor Five-Tab Few-Shot Website Fingerprinting"
+type: software
+authors:
+  - name: "FMWF Reproduction contributors"
+abstract: "Metric-matched, broadly configuration-matched Tor closed-world reproduction of FMWF, with 25-shot and 40-shot final epoch-300 results and explicitly provisional, overlapping validation files."
+keywords:
+  - website fingerprinting
+  - reproducibility
+  - Tor
+  - few-shot learning
+references:
+  - type: conference-paper
+    title: "Beyond Single Tabs: A Transformative Few-Shot Approach to Multi-Tab Website Fingerprinting Attacks"
+    authors:
+      - family-names: Meng
+        given-names: Wenwen
+      - family-names: Ma
+        given-names: Chuan
+      - family-names: Ding
+        given-names: Ming
+      - family-names: Ge
+        given-names: Chunpeng
+      - family-names: Qian
+        given-names: Yuwen
+      - family-names: Xiang
+        given-names: Tao
+    collection-title: "Proceedings of the ACM Web Conference 2025"
+    year: 2025
+    start: 1068
+    end: 1077
+    doi: "10.1145/3696410.3714811"

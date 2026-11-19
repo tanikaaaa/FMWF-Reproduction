@@ -1,0 +1,47 @@
+{
+  "fmwf_pretraining.log": {
+    "original_log_sha256": "b64904c3e89a3d2b54215acd17656cfaf53155c2f0ebff7ccc8cbdf0a6bf196a",
+    "startup_lines": [
+      "mps",
+      "(10000, 15100)",
+      "transfer_data.shape: torch.Size([10000, 1, 15000])",
+      "transfer_labels.shape: torch.Size([10000, 100])"
+    ],
+    "final_lines": [
+      "Epoch 198/200, Train Loss: 0.0004, Train Accuracy: 98.96%, Train Precision: 99.88%, Train Recall: 99.90%, Train F1 Score: 99.87%",
+      "Epoch 199/200, Train Loss: 0.0004, Train Accuracy: 98.85%, Train Precision: 99.90%, Train Recall: 99.83%, Train F1 Score: 99.85%",
+      "Epoch 200/200, Train Loss: 0.0005, Train Accuracy: 98.84%, Train Precision: 99.91%, Train Recall: 99.83%, Train F1 Score: 99.85%"
+    ],
+    "raw_log_included": false
+  },
+  "fmwf_5tab_finetuning.log": {
+    "original_log_sha256": "2ce9619949fe9ccb7f696071fdc0630bd545a3960d5f8cf999e919b5b4279445",
+    "startup_lines": [
+      "Device: mps",
+      "fine_tune_data.shape: torch.Size([4000, 1, 15000])",
+      "fine_tune_labels.shape: torch.Size([4000, 100])",
+      "Tuning Epoch 1/300, Loss: 1.0069"
+    ],
+    "final_lines": [
+      "Validation at Epoch 299: Loss: 0.0289, Exact-set accuracy: 85.00%, A@5: 91.20%",
+      "Tuning Epoch 300/300, Loss: 0.0016",
+      "Validation at Epoch 300: Loss: 0.0337, Exact-set accuracy: 87.00%, A@5: 91.20%"
+    ],
+    "raw_log_included": false
+  },
+  "fmwf_5tab_25shot_finetuning.log": {
+    "original_log_sha256": "9cbdc7eabefce691c72924f66e0858c356b21291c2b6ad12f950fde1ed479d02",
+    "startup_lines": [
+      "Device: mps",
+      "fine_tune_df.shape: (2500, 15106)",
+      "fine_tune_data.shape: torch.Size([2500, 1, 15000])",
+      "fine_tune_labels.shape: torch.Size([2500, 100])"
+    ],
+    "final_lines": [
+      "Validation at Epoch 299: Loss: 0.0441, Exact-set accuracy: 79.00%, A@5: 87.20%",
+      "Tuning Epoch 300/300, Loss: 0.0070",
+      "Validation at Epoch 300: Loss: 0.0425, Exact-set accuracy: 82.00%, A@5: 89.00%"
+    ],
+    "raw_log_included": false
+  }
+}

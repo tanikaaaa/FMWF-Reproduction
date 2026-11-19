@@ -1,0 +1,52 @@
+# Obtain upstream source separately; never vendor its Git history or source here.
+upstream/
+# Private raw data and model artifacts
+data/
+datasets/
+checkpoints/
+papers/
+external-paper/
+private-working-tree/
+local-artifacts/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pcap
+*.pcapng
+*.npy
+*.npz
+*.csv
+!results/metrics/*.csv
+*.log
+# Environments, Python and tool caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.matplotlib/
+*.egg-info/
+build/
+dist/
+# Credentials and local account configuration
+.env
+.env.*
+*.pem
+*.key
+.aws/
+.ssh/
+.git-credentials
+.netrc
+# Editor, OS, and temporary artifacts
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
+*.tmp
+*~
+qa-render/
