@@ -502,6 +502,5 @@ Original source code and datasets are not redistributed because upstream redistr
 
 ---
 
-*B.Tech Computer Science and Engineering Research Project — MNIT Jaipur.*
 
 *Independent reproduction of FMWF (WWW 2025). Original methodology and architecture credited to the authors.*
