@@ -222,10 +222,6 @@ The 25-shot and 40-shot runs independently initialized from the same pretrained 
 
 A@5 measures the fraction of the five predicted websites that belong to the true visited set:
 
-$$
-A@5(x)=\frac{1}{5}\sum_{i\in\operatorname{Top5}(z(x))} y_i
-$$
-
 For four correct predictions out of five, **A@5 = 80%**.
 
 ### Exact-set accuracy — Released-code metric
